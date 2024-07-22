@@ -1,9 +1,11 @@
-from unit_test import square
+
 
 def main():
     test_square()
 
 
+def square(n):
+    return n + n
 
 def test_square():
     try:
